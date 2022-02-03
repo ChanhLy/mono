@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "apps/docs"
+    },
+    {
+      "path": "apps/web"
+    },
+    {
+      "path": "packages/components"
+    }
+  ],
+  "settings": {
+    "eslint.workingDirectories": ["../apps/docs", "../apps/web", "../packages/components"],
+    "eslint.packageManager": "pnpm",
+    "eslint.run": "onSave",
+    "eslint.useESLintClass": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll": true,
+      "source.organizeImports": true
+    }
+  }
+}

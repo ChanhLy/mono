@@ -9,6 +9,10 @@
     },
     "dev": {
       "cache": false
+    },
+    "test": {
+      "dependsOn": ["^lint", "^build"],
+      "cache": false
     }
   }
 }
