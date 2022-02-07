@@ -1,6 +1,7 @@
 module.exports = {
   // extends: ['airbnb', 'airbnb-typescript'],
-  extends: ['next', 'prettier', 'airbnb', 'airbnb-typescript'],
+  // extends: ['next', 'prettier', 'airbnb', 'airbnb-typescript'],
+  extends: ['next', 'prettier'],
   settings: {
     next: {
       rootDir: ['apps/web/', 'apps/docs/'],
